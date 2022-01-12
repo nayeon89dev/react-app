@@ -1,7 +1,7 @@
-import TestComponent from '../components/TestComponent'
+import TestComponent from '../components/TestComponent';
 
 const Study = () => {
-    return <TestComponent></TestComponent>
-}
+  return <TestComponent></TestComponent>;
+};
 
 export default Study;

@@ -1,5 +1,8 @@
+import { fetchArticle } from '../network/Apps';
+
 export default function Home() {
-  return (
-    <div> HELLO WORLD STUDY </div>
-  )
+  fetchArticle().then((content) => {
+    console.log(content);
+  });
+  return <div> HELLO WORLD STUDY </div>;
 }
